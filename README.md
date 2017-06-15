@@ -20,7 +20,7 @@ This code requires:
 * [Numpy](http://www.numpy.org/) 
 * [Scipy](http://www.scipy.org/)
 * [Theano](http://deeplearning.net/software/theano/)
-* [Theanets](http://theanets.readthedocs.org/en/stable/)
+* [Theanets 0.5.3](http://theanets.readthedocs.org/en/stable/)
 * [Statsmodels](http://statsmodels.sourceforge.net/devel/)
 * [Matplotlib](http://matplotlib.org/)
 * [pyGPs](http://www-ai.cs.uni-dortmund.de/weblab/static/api_docs/pyGPs/)

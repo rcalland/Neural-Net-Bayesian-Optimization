@@ -16,7 +16,6 @@ def contains_row(x, X):
     for i in range(X.shape[0]):
         if all(X[i,:] == x):
             return True
-
     return False
 
 def master_process(print_statements):
@@ -61,7 +60,7 @@ def master_process(print_statements):
 
         if tag == WORKER_DONE:
             # data is a (1, m) array
-            if dataset == None: 
+            if dataset is None: 
                 dataset = data
 
             else:
